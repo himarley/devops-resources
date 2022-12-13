@@ -4,13 +4,7 @@
 FROM node:16.16.0-buster AS builder
 
 # Set environment/argument variables
-ARG AWS_ACCESS_KEY_ID
-ARG AWS_SECRET_ACCESS_KEY
-ARG AWS_SESSION_TOKEN
-ARG AWS_REGION
 
-# Set environment/argument variables
-ENV NPM_VERSION=7.12
 ENV AWSCLI_VERSION=1.25.0
 # Install system and application dependencies
 RUN apt update -y \
