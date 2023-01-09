@@ -1,7 +1,7 @@
 ## Base image for marley-chat server image
 
 ## Set builder stage
-FROM node:16.16.0-buster AS builder
+FROM node:16.16.0-buster
 
 # Set environment/argument variables
 
